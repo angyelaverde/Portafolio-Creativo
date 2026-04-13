@@ -7,24 +7,20 @@ body {
   background-color: #FAFAFF; 
   color: #333333; 
 }
-
 h1 {
   font-size: 45px;
   color: #2B2D42;
   margin-bottom: 10px;
 }
-
 h2 {
   text-align: center; 
   font-size: 32px;
   color: #5469FF;
   margin-bottom: 30px;
 }
-
 p {
   line-height: 1.6;
 }
-
 nav {
   display: flex;
   justify-content: space-between; 
@@ -36,28 +32,22 @@ nav {
   top: 0;
   z-index: 1000;
 } 
-
 .logo {
   font-size: 32px;
   font-weight: bold;
   margin: 0;
 } 
-
 #links {
   display: flex;
   gap: 20px;
 }
-
 #links a {
   font-weight: bold;
   transition: color 0.3s ease; 
 }
-
 #links a:hover {
   color: #C98CFF;
 }
-
-
 section {
   padding: 60px 10%; 
 }
@@ -70,17 +60,14 @@ section {
   background: linear-gradient(135deg, #EAD6FF, #C98CFF); 
   min-height: 80vh;
 }
-
 .hero-image {
   justify-self: center;
 }
-
 .hero-image img {
   max-width: 300px;
   border-radius: 50%; 
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
-
 .article-hero-info p {
   font-size: 18px;
   color: #2B2D42;
@@ -95,40 +82,33 @@ button {
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease; 
 }
-
 button:hover {
   transform: translateY(-3px); 
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-
 #call-to-action {
   background-color: #5469FF; 
   color: white;
 }
-
 .boton-secondary {
   background-color: transparent;
   border: 2px solid #5469FF;
   color: #5469FF;
   margin-left: 10px;
 }
-
 .section-about-me {
   text-align: center;
 } 
-
 .about-text {
   max-width: 700px;
   margin: 0 auto 40px auto;
   font-size: 18px;
 }
-
 .estadisticas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 } 
-
 .content-estadisticas {
   background-color: white; 
   border-radius: 15px;
@@ -136,11 +116,9 @@ button:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   transition: transform 0.3s ease; 
 }
-
 .content-estadisticas:hover {
   transform: translateY(-8px); 
 }
-
 .estadisticas-number {
   font-size: 40px;
   font-weight: bold;
@@ -302,4 +280,40 @@ footer {
 footer h2 {
   color: white;
   margin: 0;
+}
+.section-proceso {
+  background-color: #FFFFFF; 
+  text-align: center;
+}
+.pasos-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+.pasos {
+  background-color: #FAFAFF;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+}
+.pasos:hover {
+  transform: translateY(-10px);
+  border-bottom: 5px solid #C98CFF; 
+}
+.pasos img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.pasos h3 {
+  color: #5469FF;
+  font-size: 22px;
+}
+.pasos p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
 }
