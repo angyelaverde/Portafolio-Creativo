@@ -1,0 +1,305 @@
+
+body {
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #FAFAFF; 
+  color: #333333; 
+}
+
+h1 {
+  font-size: 45px;
+  color: #2B2D42;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 32px;
+  color: #5469FF;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 15px 5%; 
+  background-color: #5469FF;
+  color: white;
+  position: sticky; 
+  top: 0;
+  z-index: 1000;
+} 
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+} 
+
+#links {
+  display: flex;
+  gap: 20px;
+}
+
+#links a {
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+#links a:hover {
+  color: #C98CFF;
+}
+
+
+section {
+  padding: 60px 10%; 
+}
+
+
+.section-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: linear-gradient(135deg, #EAD6FF, #C98CFF); 
+  min-height: 80vh;
+}
+
+.hero-image {
+  justify-self: center;
+}
+
+.hero-image img {
+  max-width: 300px;
+  border-radius: 50%; 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.article-hero-info p {
+  font-size: 18px;
+  color: #2B2D42;
+  margin-bottom: 30px;
+} 
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+button:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#call-to-action {
+  background-color: #5469FF; 
+  color: white;
+}
+
+.boton-secondary {
+  background-color: transparent;
+  border: 2px solid #5469FF;
+  color: #5469FF;
+  margin-left: 10px;
+}
+
+.section-about-me {
+  text-align: center;
+} 
+
+.about-text {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+}
+
+.estadisticas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+} 
+
+.content-estadisticas {
+  background-color: white; 
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease; 
+}
+
+.content-estadisticas:hover {
+  transform: translateY(-8px); 
+}
+
+.estadisticas-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5469FF;
+  margin: 0;
+}
+
+.estadisticas-title {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+.section-servicios {
+  background-color: #F0EBFF;
+}
+
+.los-servicios {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.list-servicios {
+  background-color: #5469FF;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.list-servicios:hover {
+  transform: scale(1.05); 
+  background-color: #7D82FF;
+}
+
+.list-proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 30px;
+}
+
+.proyectos-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.proyectos-card:hover {
+  transform: translateY(-10px);
+}
+
+.proyectos-card img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.proyectos-card h3 {
+  color: #2B2D42;
+  margin-top: 15px;
+}
+
+.link-proyecto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #EEE;
+  padding-top: 10px;
+}
+
+.boton-link {
+  background-color: #C98CFF;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.list-programas {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.link-programas img {
+  width: 80px;
+  transition: transform 0.3s ease;
+}
+
+.link-programas img:hover {
+  transform: rotate(10deg) scale(1.1); 
+}
+
+.section-testimonios {
+  background-color: #C98CFF;
+}
+.testimonios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px; 
+  background-color: #C98CFF
+} 
+
+.testimonio-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.people {
+  font-weight: bold;
+  color: #5469FF;
+  margin-top: 15px;
+} 
+
+.parte-informacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.info-other-people {
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px;
+}
+.info-other-people input, 
+.info-other-people textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.info-other-people input:focus, 
+.info-other-people textarea:focus {
+  outline: none;
+  border-color: #5469FF;
+}
+
+footer {
+  background-color: #2B2D42;
+  padding: 40px 10%;
+}
+
+footer h2 {
+  color: white;
+  margin: 0;
+}
