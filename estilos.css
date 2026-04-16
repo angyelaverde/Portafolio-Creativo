@@ -304,9 +304,12 @@ footer h2 {
   border-bottom: 5px solid #C98CFF; 
 }
 .pasos img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 12px; 
+  margin-top: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .pasos h3 {
   color: #5469FF;
